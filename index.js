@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-/*
+//will refactor
  const stopButton = document.getElementById('stopButton')
  const stopLight = document.getElementById('stopLight')
  const slowButton = document.getElementById('slowButton')
@@ -53,8 +53,8 @@ goButton.addEventListener('mouseenter',function() {
 goButton.addEventListener('mouseleave',function() {
   console.log(`Exited ${goButton.innerText} button`)
 })
-*/
 
+/*
 const buttonContainer = document.querySelector('#controls');
 const stopLight =  document.querySelector('#stopLight');
 console.log(buttonContainer);
@@ -74,6 +74,7 @@ buttonContainer.addEventListener('click', function(e) {
       goLight.classList.toggle('go')
     }
 })
+*/
 
 
 
